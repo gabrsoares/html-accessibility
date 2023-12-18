@@ -1,0 +1,1848 @@
+<html lang="en-US">
+  <head>
+    <title>Web HTML Homepage</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Keywords"
+      content="HTML,CSS,JavaScript,SQL,PHP,jQuery,ASP,XML,DOM,Bootstrap,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,source code,colors,demos,tips"
+    />
+    <meta
+      name="Description"
+      content="Well organized and easy to understand Web bulding tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML."
+    />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/lib/w3.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/stdtheme.css"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+cA2PUOfIOKAdSDJOW5CP9ZlxONy1yu+hqAq72zUtKw4rLdihqRp6Nui/jUyCyegr+BUtH+C+Elv0ufn05yBQEAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+zsdH3aNZT/bkjT8U/o5ACzyaeNYzTvtoVmwf/KOilfv39pxY2AIsOwhQJv+YnXp98i3TqrQibIVtMWs5UHjgoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="AxceVEhIegcDEHqLXFQ2+vPKqzCppoJYsRCZ/BdfVnbM/sUUF2BXV8lwNosyYjvoxnTh2FC8cOlAnA5uULr/zAUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="
+    />
+    <script
+      src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022092201.js?cb=31069829"
+      async=""
+    ></script>
+    <link
+      rel="preload"
+      href="https://adservice.google.com.br/adsid/integrator.js?domain=www-db.deis.unibo.it"
+      as="script"
+    />
+    <script
+      type="text/javascript"
+      src="https://adservice.google.com.br/adsid/integrator.js?domain=www-db.deis.unibo.it"
+    ></script>
+    <link
+      rel="preload"
+      href="https://adservice.google.com/adsid/integrator.js?domain=www-db.deis.unibo.it"
+      as="script"
+    />
+    <script
+      type="text/javascript"
+      src="https://adservice.google.com/adsid/integrator.js?domain=www-db.deis.unibo.it"
+    ></script>
+    <script
+      src="https://www.google.com/cse/static/element/fd562c898514f252/cse_element__en.js?usqp=CAI%3D"
+      type="text/javascript"
+    ></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.google.com/cse/static/element/fd562c898514f252/default+en.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.google.com/cse/static/style/look/v4/default.css"
+    />
+    <style type="text/css">
+      .gsc-control-cse {
+        font-family: arial, sans-serif;
+      }
+      .gsc-control-cse .gsc-table-result {
+        font-family: arial, sans-serif;
+      }
+      .gsc-refinementsGradient {
+        background: linear-gradient(
+          to left,
+          rgba(255, 255, 255, 1),
+          rgba(255, 255, 255, 0)
+        );
+      }
+      .gsc-control-cse {
+        border-color: #ffffff;
+        background-color: #ffffff;
+      }
+      input.gsc-input,
+      .gsc-input-box,
+      .gsc-input-box-hover,
+      .gsc-input-box-focus {
+        border-color: #dfe1e5;
+      }
+      .gsc-search-button-v2,
+      .gsc-search-button-v2:hover,
+      .gsc-search-button-v2:focus {
+        border-color: #3079ed;
+        background-color: #4d90fe;
+        background-image: none;
+        filter: none;
+      }
+      .gsc-search-button-v2 svg {
+        fill: #ffffff;
+      }
+      .gsc-tabHeader.gsc-tabhActive,
+      .gsc-refinementHeader.gsc-refinementhActive {
+        color: #1a73e8;
+        border-color: #1a73e8;
+        background-color: #ffffff;
+      }
+      .gsc-tabHeader.gsc-tabhInactive,
+      .gsc-refinementHeader.gsc-refinementhInactive {
+        color: #666666;
+        border-color: #666666;
+        background-color: #ffffff;
+      }
+      .gsc-webResult.gsc-result,
+      .gsc-results .gsc-imageResult {
+        border-color: #ffffff;
+        background-color: #ffffff;
+      }
+      .gsc-webResult.gsc-result:hover {
+        border-color: #ffffff;
+        background-color: #ffffff;
+      }
+      .gs-webResult.gs-result a.gs-title:link,
+      .gs-webResult.gs-result a.gs-title:link b,
+      .gs-imageResult a.gs-title:link,
+      .gs-imageResult a.gs-title:link b {
+        color: #1155cc;
+      }
+      .gs-webResult.gs-result a.gs-title:visited,
+      .gs-webResult.gs-result a.gs-title:visited b,
+      .gs-imageResult a.gs-title:visited,
+      .gs-imageResult a.gs-title:visited b {
+        color: #1155cc;
+      }
+      .gs-webResult.gs-result a.gs-title:hover,
+      .gs-webResult.gs-result a.gs-title:hover b,
+      .gs-imageResult a.gs-title:hover,
+      .gs-imageResult a.gs-title:hover b {
+        color: #1155cc;
+      }
+      .gs-webResult.gs-result a.gs-title:active,
+      .gs-webResult.gs-result a.gs-title:active b,
+      .gs-imageResult a.gs-title:active,
+      .gs-imageResult a.gs-title:active b {
+        color: #1155cc;
+      }
+      .gsc-cursor-page {
+        color: #1155cc;
+      }
+      a.gsc-trailing-more-results:link {
+        color: #1155cc;
+      }
+      .gs-webResult:not(.gs-no-results-result):not(.gs-error-result)
+        .gs-snippet,
+      .gs-fileFormatType {
+        color: #333333;
+      }
+      .gs-webResult div.gs-visibleUrl {
+        color: #005C1B;
+      }
+      .gs-webResult div.gs-visibleUrl-short {
+        color: #005C1B;
+      }
+      .gs-webResult div.gs-visibleUrl-short {
+        display: none;
+      }
+      .gs-webResult div.gs-visibleUrl-long {
+        display: none;
+      }
+      .gs-webResult div.gs-visibleUrl-breadcrumb {
+        display: block;
+      }
+      .gs-promotion div.gs-visibleUrl-short {
+        display: none;
+      }
+      .gs-promotion div.gs-visibleUrl-long {
+        display: block;
+      }
+      .gs-promotion div.gs-visibleUrl-breadcrumb {
+        display: none;
+      }
+      .gsc-cursor-box {
+        border-color: #ffffff;
+      }
+      .gsc-results .gsc-cursor-box .gsc-cursor-page {
+        border-color: #666666;
+        background-color: #ffffff;
+        color: #666666;
+      }
+      .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+        border-color: #1a73e8;
+        background-color: #ffffff;
+        color: #1a73e8;
+      }
+      .gsc-webResult.gsc-result.gsc-promotion {
+        border-color: #ffffff;
+        background-color: #f6f6f6;
+      }
+      .gsc-completion-title {
+        color: #1155cc;
+      }
+      .gsc-completion-snippet {
+        color: #333333;
+      }
+      .gs-promotion a.gs-title:link,
+      .gs-promotion a.gs-title:link *,
+      .gs-promotion .gs-snippet a:link {
+        color: #1155cc;
+      }
+      .gs-promotion a.gs-title:visited,
+      .gs-promotion a.gs-title:visited *,
+      .gs-promotion .gs-snippet a:visited {
+        color: #1155cc;
+      }
+      .gs-promotion a.gs-title:hover,
+      .gs-promotion a.gs-title:hover *,
+      .gs-promotion .gs-snippet a:hover {
+        color: #1155cc;
+      }
+      .gs-promotion a.gs-title:active,
+      .gs-promotion a.gs-title:active *,
+      .gs-promotion .gs-snippet a:active {
+        color: #1155cc;
+      }
+      .gs-promotion .gs-snippet,
+      .gs-promotion .gs-title .gs-promotion-title-right,
+      .gs-promotion .gs-title .gs-promotion-title-right * {
+        color: #333333;
+      }
+      .gs-promotion .gs-visibleUrl,
+      .gs-promotion .gs-visibleUrl-short {
+        color: #005C1B;
+      }
+      .gcsc-find-more-on-google {
+        color: #1155cc;
+      }
+      .gcsc-find-more-on-google-magnifier {
+        fill: #1155cc;
+      }
+    </style>
+    <style type="text/css">
+      .gscb_a {
+        display: inline-block;
+        font: 27px/13px arial, sans-serif;
+      }
+      .gsst_a .gscb_a {
+        color: #a1b9ed;
+        cursor: pointer;
+      }
+      .gsst_a:hover .gscb_a,
+      .gsst_a:focus .gscb_a {
+        color: #36c;
+      }
+      .gsst_a {
+        display: inline-block;
+      }
+      .gsst_a {
+        cursor: pointer;
+        padding: 0 4px;
+      }
+      .gsst_a:hover {
+        text-decoration: none !important;
+      }
+      .gsst_b {
+        font-size: 16px;
+        padding: 0 2px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        white-space: nowrap;
+      }
+      .gsst_e {
+        vertical-align: middle;
+        opacity: 0.55;
+      }
+      .gsst_a:hover .gsst_e,
+      .gsst_a:focus .gsst_e {
+        opacity: 0.72;
+      }
+      .gsst_a:active .gsst_e {
+        opacity: 1;
+      }
+      .gsst_f {
+        background: white;
+        text-align: left;
+      }
+      .gsst_g {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-top-color: #d9d9d9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin: -1px -3px;
+        padding: 0 6px;
+      }
+      .gsst_h {
+        background-color: white;
+        height: 1px;
+        margin-bottom: -1px;
+        position: relative;
+        top: -1px;
+      }
+      .gsib_a {
+        width: 100%;
+        padding: 4px 6px 0;
+      }
+      .gsib_a,
+      .gsib_b {
+        vertical-align: top;
+      }
+      .gssb_c {
+        border: 0;
+        position: absolute;
+        z-index: 989;
+      }
+      .gssb_e {
+        border: 1px solid #ccc;
+        border-top-color: #d9d9d9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        cursor: default;
+      }
+      .gssb_f {
+        visibility: hidden;
+        white-space: nowrap;
+      }
+      .gssb_k {
+        border: 0;
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 988;
+      }
+      .gsdd_a {
+        border: none !important;
+      }
+      .gsq_a {
+        padding: 0;
+      }
+      .gssb_a {
+        padding: 0 7px;
+      }
+      .gssb_a,
+      .gssb_a td {
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 22px;
+      }
+      #gssb_b {
+        font-size: 11px;
+        color: #36c;
+        text-decoration: none;
+      }
+      #gssb_b:hover {
+        font-size: 11px;
+        color: #36c;
+        text-decoration: underline;
+      }
+      .gssb_g {
+        text-align: center;
+        padding: 8px 0 7px;
+        position: relative;
+      }
+      .gssb_h {
+        font-size: 15px;
+        height: 28px;
+        margin: 0.2em;
+        -webkit-appearance: button;
+      }
+      .gssb_i {
+        background: #eee;
+      }
+      .gss_ifl {
+        visibility: hidden;
+        padding-left: 5px;
+      }
+      .gssb_i .gss_ifl {
+        visibility: visible;
+      }
+      a.gssb_j {
+        font-size: 13px;
+        color: #36c;
+        text-decoration: none;
+        line-height: 100%;
+      }
+      a.gssb_j:hover {
+        text-decoration: underline;
+      }
+      .gssb_l {
+        height: 1px;
+        background-color: #e5e5e5;
+      }
+      .gssb_m {
+        color: #000;
+        background: #fff;
+      }
+      .gssb_a {
+        padding: 0 9px;
+      }
+      .gsib_a {
+        padding: 5px 9px 4px 9px;
+      }
+      .gscb_a {
+        line-height: 27px;
+      }
+      .gssb_e {
+        border: 0;
+      }
+      .gssb_l {
+        margin: 5px 0;
+      }
+      input.gsc-input::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+      input.gsc-input:-moz-placeholder {
+        font-size: 14px;
+      }
+      input.gsc-input::-moz-placeholder {
+        font-size: 14px;
+      }
+      input.gsc-input:-ms-input-placeholder {
+        font-size: 14px;
+      }
+      input.gsc-input:focus::-webkit-input-placeholder {
+        color: transparent;
+      }
+      input.gsc-input:focus:-moz-placeholder {
+        color: transparent;
+      }
+      input.gsc-input:focus::-moz-placeholder {
+        color: transparent;
+      }
+      input.gsc-input:focus:-ms-input-placeholder {
+        color: transparent;
+      }
+      .gssb_c .gsc-completion-container {
+        position: static;
+      }
+      .gssb_c {
+        z-index: 5000;
+      }
+      .gsc-completion-container table {
+        background: transparent;
+        font-size: inherit;
+        font-family: inherit;
+      }
+      .gssb_c > tbody > tr,
+      .gssb_c > tbody > tr > td,
+      .gssb_d,
+      .gssb_d > tbody > tr,
+      .gssb_d > tbody > tr > td,
+      .gssb_e,
+      .gssb_e > tbody > tr,
+      .gssb_e > tbody > tr > td {
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+      .gssb_a table,
+      .gssb_a table tr,
+      .gssb_a table tr td {
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-container top">
+      <a class="w3schools-logo" href="../index.html"
+        >w3schools<span class="dotcom" style="color: #005C1B;">.com</span></a
+      >
+      <div class="w3-right toptext w3-wide">
+        THE WORLD'S LARGEST WEB DEVELOPER SITE
+      </div>
+    </div>
+    <div
+      class="w3-navbar w3-card-2 w3-slim topnav"
+      id="topnav"
+      style="position: relative; top: 0px"
+    >
+      <div style="overflow: auto">
+        <div style="float: left; width: 50%; overflow: hidden; height: 44px">
+          <a
+            href="javascript:void(0);"
+            class="topnav-localicons w3-hide-large w3-left"
+            onclick="open_menu()"
+            >☰</a
+          >
+          <a href="../default.asp.html" aria-label="click to go to menu" class="active"></a>
+          <a
+            href="../html/default.asp.html"
+            class="active"
+            aria-label="learn more about html"
+            style="background-color: #005C1B;"
+            >HTML</a
+          ><a
+            href="../css/default.asp.html" class="active"
+            aria-label="learn more about css"
+            style="background-color: #005C1B;"
+            >CSS</a
+          ><a
+            href="../js/default.asp.html"
+            class="active"
+            aria-label="learn more about javascript"
+            style="background-color: #005C1B;"
+            >JAVASCRIPT</a
+          ><a
+            href="../sql/default.asp.html" class="active"
+            aria-label="learn more about sql"
+            style="background-color: #005C1B;"
+            >SQL</a
+          ><a
+            href="../php/default.asp.html"
+            class="active"
+            aria-label="learn more about php"
+            style="background-color: #005C1B;"
+            >PHP</a
+          ><a
+            href="../bootstrap/default.asp.html"
+            class="active"
+            aria-label="learn more about bootstrap"
+            style="background-color: #005C1B;"
+            >BOOTSTRAP</a
+          ><a
+            href="../jquery/default.asp.html"
+            class="active"
+            aria-label="learn more about jquery"
+            style="background-color: #005C1B;"
+            >JQUERY</a
+          ><a
+            href="../angular/default.asp.html"
+            class="active"
+            aria-label="learn more about angular"
+            style="background-color: #005C1B;"
+            >ANGULAR</a
+          ><a
+            href="../xml/default.asp.html" class="active"
+            aria-label="learn more about xml"
+            style="background-color: #005C1B;"
+            >XML</a
+          >
+        </div>
+        <div style="float: right; width: 110px; overflow: hidden; height: 44px">
+          <a
+            href="javascript:void(0);"
+            class="topnav-icons fa fa-search w3-right"
+            aria-label="click to search"
+            onclick='w3_open_nav("search")'
+          ></a>
+          <a
+            href="javascript:void(0);"
+            class="topnav-icons fa fa-globe w3-right"
+            aria-label="click to translate page"
+            onclick='openGoogleTranslate();w3_open_nav("translate")'
+          ></a>
+        </div>
+        <div
+          class="w3-hide-small"
+          style="float: right; width: 30%; overflow: hidden; height: 44px"
+        >
+          <a
+            id="topnavbtn_tutorials"
+            href="javascript:void(0);"
+            onclick='w3_open_nav("tutorials")'
+            title="Tutorials"
+            >TUTORIALS <i class="fa fa-caret-down"></i
+            ><i class="fa fa-caret-up" style="display: none"></i></a
+          ><a
+            id="topnavbtn_references"
+            href="javascript:void(0);"
+            onclick='w3_open_nav("references")'
+            >REFERENCES <i class="fa fa-caret-down"></i
+            ><i class="fa fa-caret-up" style="display: none"></i></a
+          ><a
+            id="topnavbtn_examples"
+            href="javascript:void(0);"
+            onclick='w3_open_nav("examples")'
+            >EXAMPLES <i class="fa fa-caret-down"></i
+            ><i class="fa fa-caret-up" style="display: none"></i></a
+          ><a href="http://www.w3schools.com/forum/default.asp">FORUM</a>
+        </div>
+      </div>
+      <div
+        id="nav_tutorials"
+        class="w3-dropnav w3-light-grey w3-card-2 w3-center"
+      ></div>
+      <div
+        id="nav_references"
+        class="w3-dropnav w3-light-grey w3-card-2 w3-center"
+      ></div>
+      <div
+        id="nav_examples"
+        class="w3-dropnav w3-light-grey w3-card-2 w3-center"
+      ></div>
+      <div
+        id="nav_translate"
+        class="w3-dropnav w3-light-grey w3-card-2 w3-center"
+      ></div>
+      <div
+        id="nav_search"
+        class="w3-dropnav w3-light-grey w3-card-2 w3-center"
+      ></div>
+    </div>
+    <div class="w3-row w3-light-grey" id="belowtopnav" style="padding-top: 0px">
+      <div class="w3-col w3-slim" id="leftmenu" style="padding-top: 0px">
+        <div id="leftmenuinner" style="padding-top: 112px">
+          <div class="w3-light-grey" id="leftmenuinnerinner">
+            <a
+              href="javascript:void(0)"
+              onclick="close_menu()"
+              class="w3-closebtn w3-hide-large w3-large"
+              style="padding: 3px 12px"
+              >×</a
+            >
+            <h2 class="left"><span class="left_h2">Web Building</span></h2>
+            <a target="_top" href="default.asp.html">Web Home</a>
+            <a target="_top" href="web_spa_homepage.asp.html" class="active" style="background-color: #005C1B;"
+              >Web HTML</a
+            >
+            <a target="_top" href="web_spa_css.asp.html">Web CSS</a>
+            <a target="_top" href="web_spa_javascript.asp.html"
+              >Web JavaScript</a
+            >
+            <a target="_top" href="web_spa_datapage.asp.html">Web Data Page</a>
+            <a target="_top" href="web_spa_navigation.asp.html"
+              >Web Navigation</a
+            >
+            <a target="_top" href="web_spa_ajax.asp.html">Web Http</a>
+            <a target="_top" href="web_spa_appml.asp.html">Web AppML</a>
+            <a target="_top" href="web_spa_daas.asp.html">Web DaaS</a>
+            <a target="_top" href="web_spa_sql.asp.html">Web SQL</a>
+            <br />
+            <h2 class="left"><span class="left_h2">Web Site</span></h2>
+            <a target="_top" href="web_site.asp.html">Web Site</a>
+            <a target="_top" href="web_database.asp.html">Web Database</a>
+            <a target="_top" href="web_design.asp.html">Web Design</a>
+            <a target="_top" href="web_quality.asp.html">Web Quality</a>
+            <a target="_top" href="web_wai.asp.html">Web WAI</a>
+            <a target="_top" href="web_validate.asp.html">Web Validation</a>
+            <a target="_top" href="web_search.asp.html">Web SEO</a>
+            <a target="_top" href="web_tcpip.asp.html">Web TCP/IP</a>
+            <br />
+            <h2 class="left"><span class="left_h2">Web Hosting</span></h2>
+            <a target="_top" href="web_host_intro.asp.html">Host Intro</a>
+            <a target="_top" href="web_host_providers.asp.html"
+              >Host Providers</a
+            >
+            <a target="_top" href="web_host_domains.asp.html">Host Domains</a>
+            <a target="_top" href="web_host_capacity.asp.html">Host Capacity</a>
+            <a target="_top" href="web_host_email.asp.html">Host Email</a>
+            <a target="_top" href="web_host_technologies.asp.html"
+              >Host Technologies</a
+            >
+            <a target="_top" href="web_host_databases.asp.html"
+              >Host Databases</a
+            >
+            <a target="_top" href="web_host_types.asp.html">Host Types</a>
+            <a target="_top" href="web_host_ecommerce.asp.html"
+              >Host E-commerce</a
+            >
+            <br /><br />
+          </div>
+        </div>
+        &nbsp;
+      </div>
+      <div class="w3-rest">
+        <div class="w3-row w3-white">
+          <div class="w3-col l10 m12" id="main">
+            <div id="mainLeaderboard" style="overflow: hidden">
+              <!-- MainLeaderboard-->
+              <div
+                id="div-gpt-ad-1422003450156-2"
+                data-google-query-id="COOlwIrHq_oCFXivlQId1vINMg"
+              >
+                <div
+                  id="google_ads_iframe_/16833175/MainLeaderboard_0__container__"
+                  style="
+                    border: 0pt none;
+                    display: inline-block;
+                    width: 728px;
+                    height: 90px;
+                  "
+                >
+                  <iframe
+                    frameborder="0"
+                    title="3rd party ad content"
+                    src="https://a05aba3cb41ccf0d16baacdfa9c9806a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+                    id="google_ads_iframe_/16833175/MainLeaderboard_0"
+                    name=""
+                    scrolling="no"
+                    marginwidth="0"
+                    marginheight="0"
+                    width="728"
+                    height="90"
+                    data-is-safeframe="true"
+                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    data-google-container-id="1"
+                    style="border: 0px; vertical-align: bottom"
+                    data-load-complete="true"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <h1>
+              Web Building
+              <span class="color_h1">- Creating a Web Site (HTML)</span>
+            </h1>
+            <div class="chapter">
+              <div class="prev">
+                <a class="chapter" href="default.asp.html">« Previous</a>
+              </div>
+              <div class="next">
+                <a class="chapter" href="web_spa_css.asp.html"
+                  >Next Chapter »</a
+                >
+              </div>
+            </div>
+            <hr />
+            <p class="intro">
+              Building a web site from scratch.&nbsp; <strong>Part I</strong>:
+              Creating a web site.
+            </p>
+
+            <hr />
+            <h2>What We Will Do</h2>
+            <p>In this chapter we will create a web site on your computer.</p>
+            <p></p>
+            <table class="lamp">
+              <tbody>
+                <tr>
+                  <th style="width: 34px">
+                    <img
+                      src="/images/lamp.jpg"
+                      style="height: 32px; width: 32px"
+                      alt="Lâmpada"
+                    />
+                  </th>
+                  <td>
+                    The web site will only be visible to you. Later you will
+                    learn how to make it public.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p></p>
+
+            <hr />
+            <h2>Create the Web Site</h2>
+            <p>
+              Create a new folder on your computer (a new folder on your desktop
+              is OK).
+            </p>
+            <p>Name the new folder <strong>demoweb</strong>.</p>
+            <p>Now you have a local web site.</p>
+
+            <hr />
+            <h2>Create a Home Page</h2>
+            <p>
+              In the <strong>demoweb</strong> folder, create a new file named
+              <strong>index.html</strong>.
+            </p>
+            <p>
+              Use Notepad (or any other text editor) to put the following
+              content in the file:
+            </p>
+            <div class="w3-example">
+              <h3>index.html</h3>
+              <div class="w3-code notranslate htmlHigh">
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>!DOCTYPE<span
+                    style="color: red"
+                  >
+                    html</span
+                  ><span style="color: mediumblue">&gt;</span></span
+                ><br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>html<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>head<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>title<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Our Company<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/title<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/head<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>body<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>h1<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Welcome to Our Company<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/h1<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />&nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>h2<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Web Site Main Ingredients:<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/h2<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Pages (HTML)<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />&nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Style Sheets (CSS)<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Computer Code (JavaScript)<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />&nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Live Data (Files and Databases)<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/body<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/html<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >
+              </div>
+              <a
+                class="w3-btn w3-margin-bottom"
+                href="tryit.asp-filename=tryweb_demo_home.html"
+                target="_blank"
+                >Try it Yourself »</a
+              >
+            </div>
+            <p></p>
+            <table class="lamp">
+              <tbody>
+                <tr>
+                  <th style="width: 34px">
+                    <img
+                      src="/images/lamp.jpg"
+                      style="height: 32px; width: 32px"
+                      alt="Lâmpada"
+                    />
+                  </th>
+                  <td>
+                    After you have saved the file, you can open it in your
+                    browser, and see how it runs.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p></p>
+            <hr />
+            <h2>Add an About Page</h2>
+            <p>
+              In the <strong>demoweb</strong> folder, create a new file named
+              <strong>about.html</strong>.
+            </p>
+
+            <p>Put the following in the file:</p>
+
+            <div class="w3-example">
+              <h3>about.html</h3>
+              <div class="w3-code notranslate htmlHigh">
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>!DOCTYPE<span
+                    style="color: red"
+                  >
+                    html</span
+                  ><span style="color: mediumblue">&gt;</span></span
+                ><br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>html<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>head<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>title<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >About<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/title<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/head<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>body<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                &nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>h1<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >About Us<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/h1<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />&nbsp;
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >Lorem Ipsum Porem Lorem Ipsum Porem<span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/p<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                <span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/body<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><span style="color: brown"
+                  ><span style="color: mediumblue">&lt;</span>/html<span
+                    style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+              </div>
+              <a
+                class="w3-btn w3-margin-bottom"
+                href="tryit.asp-filename=tryweb_demo_about.html"
+                target="_blank"
+                >Try it Yourself »</a
+              >
+            </div>
+            <p>
+              The files above contain headings &lt;h1&gt; and a paragraphs
+              &lt;p&gt;. Please feel free to edit the content.
+            </p>
+
+            <p>
+              In the next chapter, we will add a CSS style sheet. After that we
+              will add computer code and data.
+            </p>
+            <hr />
+            <h2>Read More</h2>
+            <p>
+              Read more about HTML in our
+              <a href="../html/default.asp.html">HTML Tutorial</a>.
+            </p>
+            <br />
+
+            <div class="chapter">
+              <div class="prev">
+                <a class="chapter" href="default.asp.html">« Previous</a>
+              </div>
+              <div class="next">
+                <a class="chapter" href="web_spa_css.asp.html"
+                  >Next Chapter »</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l2 m12" id="right">
+            <div class="sidesection">
+              <div id="skyscraper">
+                <div
+                  id="div-gpt-ad-1422003450156-5"
+                  data-google-query-id="CLyywIrHq_oCFSi2lQIdKXAMQQ"
+                >
+                  <div
+                    id="google_ads_iframe_/16833175/WideSkyScraper_0__container__"
+                    style="
+                      border: 0pt none;
+                      display: inline-block;
+                      width: 160px;
+                      height: 600px;
+                    "
+                  >
+                    <iframe
+                      frameborder="0"
+                      src="https://a05aba3cb41ccf0d16baacdfa9c9806a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+                      id="google_ads_iframe_/16833175/WideSkyScraper_0"
+                      title="3rd party ad content"
+                      name=""
+                      scrolling="no"
+                      marginwidth="0"
+                      marginheight="0"
+                      width="160"
+                      height="600"
+                      data-is-safeframe="true"
+                      sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                      tabindex="0"
+                      data-google-container-id="2"
+                      style="border: 0px; vertical-align: bottom"
+                      data-load-complete="true"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidesection">
+              <h3>W3SCHOOLS EXAMS</h3>
+              <a target="_blank" href="../cert/default.asp.html">
+                HTML, CSS, JavaScript, PHP, jQuery, Bootstrap and XML
+                Certifications</a
+              >
+            </div>
+
+            <div class="sidesection">
+              <h3>COLOR PICKER</h3>
+              <a href="../colors/colors_picker.asp.html">
+                <img src="/images/colorpicker.gif"
+                alt="Color Picker"
+              /></a>
+            </div>
+
+            <div class="sidesection">
+              <h3>LEARN MORE:</h3>
+              <p>
+                <a href="../colors/colors_converter.asp.html">Color Converter</a
+                ><br />
+                <a href="../howto/howto_google_maps.asp.html">Google Maps</a
+                ><br />
+                <a href="../howto/howto_css_animate_buttons.asp.html"
+                  >Animated Buttons</a
+                ><br />
+                <a href="../howto/howto_css_modals.asp.html">Modal Boxes</a
+                ><br />
+                <a href="../howto/howto_css_modal_images.asp.html"
+                  >Modal Images</a
+                ><br />
+                <a href="../howto/howto_css_tooltip.asp.html">Tooltips</a><br />
+                <a href="../howto/howto_css_loader.asp.html">Loaders</a><br />
+                <a href="../howto/howto_js_animate.asp.html">JS Animations</a
+                ><br />
+                <a href="../howto/howto_js_progressbar.asp.html"
+                  >Progress Bars</a
+                ><br />
+                <a href="../howto/howto_js_dropdown.asp.html">Dropdowns</a
+                ><br />
+                <a href="../howto/howto_js_slideshow.asp.html">Slideshow</a
+                ><br />
+                <a href="../howto/howto_js_sidenav.asp.html">Side Navigation</a
+                ><br />
+                <a href="../howto/howto_html_include.asp.html">HTML Includes</a
+                ><br />
+                <a href="../w3css/w3css_color_themes.asp.html">Color Palettes</a
+                ><br />
+                <a href="../w3css/w3css_code.asp.html">Code Coloring</a>
+              </p>
+            </div>
+
+            <div class="sidesection">
+              <h3>SHARE THIS PAGE</h3>
+              <div class="w3-text-grey sharethis">
+                <script>
+                  <!--
+                  try {
+                    loc = location.pathname;
+                    if (loc.toUpperCase().indexOf(".ASP") < 0)
+                      loc = loc + "default.asp";
+                    txt =
+                      '<a aria-label="click to enter facebook" href="http://www.facebook.com/sharer.php?u=http://www.w3schools.com' +
+                      loc +
+                      '" target="_blank" ><span class="fa fa-facebook-square fa-2x"></span></a>';
+                    txt =
+                      txt +
+                      '<a aria-label="click to enter twitter" href="http://twitter.com/home?status=Currently reading http://www.w3schools.com' +
+                      loc +
+                      '" target="_blank" ><span class="fa fa-twitter-square fa-2x"></span></a>';
+                    txt =
+                      txt +
+                      '<a aria-label="click to enter google-plus" href="https://plus.google.com/share?url=http://www.w3schools.com' +
+                      loc +
+                      '" target="_blank"><span class="fa fa-google-plus-square fa-2x"></span></a>';
+                    document.write(txt);
+                  } catch (e) {}
+                  //-->
+                </script>
+                <a
+                  href="http://www.facebook.com/sharer.php?u=http://www.w3schools.com/courses/TW/DOCS/w3schools/website/web_spa_homepage.asp.html"
+                  target="_blank"
+                  aria-label="visit web spa homepage on facebook"
+                  ><span class="fa fa-facebook-square fa-2x"></span></a
+                ><a
+                  href="http://twitter.com/home?status=Currently reading http://www.w3schools.com/courses/TW/DOCS/w3schools/website/web_spa_homepage.asp.html"
+                  target="_blank"
+                  aria-label="visit web spa homepage on twitter"
+                  ><span class="fa fa-twitter-square fa-2x"></span></a
+                ><a
+                  href="https://plus.google.com/share?url=http://www.w3schools.com/courses/TW/DOCS/w3schools/website/web_spa_homepage.asp.html"
+                  target="_blank"
+                  aria-label="visit web spa homepage on google plus"
+                  ><span class="fa fa-google-plus-square fa-2x"></span
+                ></a>
+              </div>
+            </div>
+
+            <div class="sidesection w3-text-grey sharethis">
+              <a
+                href="javascript:void(0);"
+                onclick="clickFBLike()"
+                title="Like W3Schools on Facebook"
+              >
+                <span class="fa fa-thumbs-o-up fa-2x"></span
+              ></a>
+              <div id="fblikeframe">
+                <div id="popupframe"></div>
+                <div id="popupDIV"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer w3-container w3-white">
+          <hr />
+          <div style="overflow: auto">
+            <!-- BottomMediumRectangle -->
+            <div
+              class="bottomad"
+              id="div-gpt-ad-1422003450156-0"
+              data-google-query-id="CIfzrYfHq_oCFVq0lQIdP9MGAg"
+            >
+              <div
+                id="google_ads_iframe_/16833175/BottomMediumRectangle_0__container__"
+                style="
+                  border: 0pt none;
+                  display: inline-block;
+                  width: 970px;
+                  height: 250px;
+                "
+              >
+                <iframe
+                  frameborder="0"
+                  src="https://a05aba3cb41ccf0d16baacdfa9c9806a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+                  id="google_ads_iframe_/16833175/BottomMediumRectangle_0"
+                  title="3rd party ad content"
+                  name=""
+                  scrolling="no"
+                  marginwidth="0"
+                  marginheight="0"
+                  width="970"
+                  height="250"
+                  data-is-safeframe="true"
+                  sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                  data-google-container-id="3"
+                  style="border: 0px; vertical-align: bottom"
+                  data-load-complete="true"
+                ></iframe>
+              </div>
+            </div>
+            <!-- RightBottomMediumRectangle -->
+            <div
+              class="bottomad"
+              id="div-gpt-ad-1422003450156-3"
+              data-google-query-id="CO3vnYfHq_oCFdizlQIdJxUOcw"
+            >
+              <div
+                id="google_ads_iframe_/16833175/RightBottomMediumRectangle_0__container__"
+                style="
+                  border: 0pt none;
+                  display: inline-block;
+                  width: 336px;
+                  height: 280px;
+                "
+              >
+                <iframe
+                  frameborder="0"
+                  src="https://a05aba3cb41ccf0d16baacdfa9c9806a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+                  id="google_ads_iframe_/16833175/RightBottomMediumRectangle_0"
+                  title="3rd party ad content"
+                  name=""
+                  scrolling="no"
+                  marginwidth="0"
+                  marginheight="0"
+                  width="336"
+                  height="280"
+                  data-is-safeframe="true"
+                  sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                  data-google-container-id="4"
+                  style="border: 0px; vertical-align: bottom"
+                  data-load-complete="true"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <div class="w3-row w3-center w3-small">
+            <div class="w3-col l3 m3 s12">
+              <a
+                href="javascript:void(0);"
+                onclick="displayError();return false"
+                style="white-space: nowrap"
+                >REPORT ERROR</a
+              >
+            </div>
+            <div class="w3-col l3 m3 s12">
+              <a href="" target="_blank" onclick="printPage();return false;"
+                >PRINT PAGE</a
+              >
+            </div>
+            <div class="w3-col l3 m3 s12">
+              <a
+                href="http://www.w3schools.com/forum/default.asp"
+                target="_blank"
+                >FORUM</a
+              >
+            </div>
+            <div class="w3-col l3 m3 s12">
+              <a href="../about/default.asp.html" target="_top">ABOUT</a>
+            </div>
+          </div>
+          <hr />
+          <div
+            class="w3-light-grey w3-padding w3-center"
+            id="err_form"
+            style="display: none"
+          >
+            <span
+              onclick="this.parentElement.style.display='none'"
+              class="w3-closebtn"
+              >×</span
+            >
+            <h2>Your Suggestion:</h2>
+            <form>
+              <div class="w3-group">
+                <label for="err_email">Your E-mail:</label>
+                <input
+                  class="w3-input"
+                  type="text"
+                  style="width: 100%"
+                  id="err_email"
+                  name="err_email"
+                />
+              </div>
+              <div class="w3-group">
+                <label for="err_email">Page address:</label>
+                <input
+                  class="w3-input"
+                  type="text"
+                  style="width: 100%"
+                  id="err_url"
+                  name="err_url"
+                  disabled="disabled"
+                />
+              </div>
+              <div class="w3-group">
+                <label for="err_email">Description:</label>
+                <textarea
+                  rows="10"
+                  class="w3-input"
+                  id="err_desc"
+                  name="err_desc"
+                  style="width: 100%"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type="button" onclick="sendErr()">Submit</button>
+              </div>
+              <br />
+            </form>
+          </div>
+          <div
+            class="w3-container w3-light-grey w3-padding"
+            id="err_sent"
+            style="display: none"
+          >
+            <span
+              onclick="this.parentElement.style.display='none'"
+              class="w3-closebtn"
+              >×</span
+            >
+            <h2>Thank You For Helping Us!</h2>
+            <p>Your message has been sent to W3Schools.</p>
+          </div>
+
+          <div class="w3-row w3-center w3-small">
+            <div class="w3-col l3 m6 s12">
+              <div class="top10">
+                <h4>Top 10 Tutorials</h4>
+                <a href="../html/default.asp.html">HTML Tutorial</a><br />
+                <a href="../css/default.asp.html">CSS Tutorial</a><br />
+                <a href="../js/default.asp.html">JavaScript Tutorial</a><br />
+                <a href="../w3css/default.asp.html">W3.CSS Tutorial</a><br />
+                <a href="../bootstrap/default.asp.html">Bootstrap Tutorial</a
+                ><br />
+                <a href="../sql/default.asp.html">SQL Tutorial</a><br />
+                <a href="../php/default.asp.html">PHP Tutorial</a><br />
+                <a href="../jquery/default.asp.html">jQuery Tutorial</a><br />
+                <a href="../angular/default.asp.html">Angular Tutorial</a><br />
+                <a href="../xml/default.asp.html">XML Tutorial</a><br />
+              </div>
+            </div>
+            <div class="w3-col l3 m6 s12">
+              <div class="top10">
+                <h4>Top 10 References</h4>
+                <a href="../tags/default.asp.html">HTML Reference</a><br />
+                <a href="../cssref/default.asp.html">CSS Reference</a><br />
+                <a href="../jsref/default.asp.html">JavaScript Reference</a
+                ><br />
+                <a href="../w3css/w3css_references.asp.html">W3.CSS Reference</a
+                ><br />
+                <a href="../browsers/default.asp.html">Browser Statistics</a
+                ><br />
+                <a href="../php/php_ref_array.asp.html">PHP Reference</a><br />
+                <a href="../colors/colors_names.asp.html">HTML Colors</a><br />
+                <a href="../charsets/default.asp.html">HTML Character Sets</a
+                ><br />
+                <a href="../jquery/jquery_ref_selectors.asp.html"
+                  >jQuery Reference</a
+                ><br />
+                <a href="../angular/angular_ref_directives.asp.html"
+                  >AngularJS Reference</a
+                ><br />
+              </div>
+            </div>
+            <div class="w3-col l3 m6 s12">
+              <div class="top10">
+                <h4>Top 10 Examples</h4>
+                <a href="../html/html_examples.asp.html">HTML Examples</a><br />
+                <a href="../css/css_examples.asp.html">CSS Examples</a><br />
+                <a href="../js/js_examples.asp.html">JavaScript Examples</a
+                ><br />
+                <a href="../w3css/w3css_examples.asp.html">W3.CSS Examples</a
+                ><br />
+                <a href="../js/js_dom_examples.asp.html">HTML DOM Examples</a
+                ><br />
+                <a href="../php/php_examples.asp.html">PHP Examples</a><br />
+                <a href="../jquery/jquery_examples.asp.html">jQuery Examples</a
+                ><br />
+                <a href="../asp/asp_examples.asp.html">ASP Examples</a><br />
+                <a href="../xml/xml_examples.asp.html">XML Examples</a><br />
+                <a href="../svg/svg_examples.asp.html">SVG Examples</a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 s12">
+              <div class="top10">
+                <h4>Web Certificates</h4>
+                <a href="../cert/default.asp.html">HTML Certificate</a><br />
+                <a href="../cert/default.asp.html">HTML5 Certificate</a><br />
+                <a href="../cert/default.asp.html">CSS Certificate</a><br />
+                <a href="../cert/default.asp.html">JavaScript Certificate</a
+                ><br />
+                <a href="../cert/default.asp.html">jQuery Certificate</a><br />
+                <a href="../cert/default.asp.html">PHP Certificate</a><br />
+                <a href="../cert/default.asp.html">Bootstrap Certificate</a
+                ><br />
+                <a href="../cert/default.asp.html">XML Certificate</a><br />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <div class="w3-center w3-small w3-opacity">
+            W3Schools is optimized for learning, testing, and training. Examples
+            might be simplified to improve reading and basic understanding.
+            Tutorials, references, and examples are constantly reviewed to avoid
+            errors, but we cannot warrant full correctness of all content. While
+            using this site, you agree to have read and accepted our
+            <a href="../about/about_copyright.asp.html">terms of use</a>,
+            <a href="../about/about_privacy.asp.html"
+              >cookie and privacy policy</a
+            >.
+            <a href="../about/about_copyright.asp.html">Copyright 1999-2016</a>
+            by Refsnes Data. All Rights Reserved.<br />
+            <a href="../w3css/index.html">Powered by W3.CSS</a>.<br /><br />
+            <a href="../index.html">
+              <img
+                style="width: 150px; height: 28px; border: 0"
+                src="/images/w3schoolscom_gray.gif"
+                alt="w3schools"
+            /></a>
+          </div>
+          <br /><br />
+        </div>
+      </div>
+    </div>
+
+    <div id="nav_tutorials_content" style="display: none">
+      <span onclick='w3_close_nav("tutorials")' class="w3-closebtn w3-xlarge"
+        >×</span
+      >
+      <div class="w3-row-padding">
+        <div class="w3-col l2 m4">
+          <h3>HTML/CSS</h3>
+          <a href="../html/default.asp.html">Learn HTML</a>
+          <a href="../css/default.asp.html">Learn CSS</a>
+          <a href="../w3css/default.asp.html">Learn W3.CSS</a>
+          <a href="../colors/default.asp.html">Learn Colors</a>
+          <a href="../bootstrap/default.asp.html">Learn Bootstrap</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>JavaScript</h3>
+          <a href="../js/default.asp.html">Learn JavaScript</a>
+          <a href="../jquery/default.asp.html">Learn jQuery</a>
+          <a href="../jquerymobile/default.asp.html">Learn jQueryMobile</a>
+          <a href="../appml/default.asp.html">Learn AppML</a>
+          <a href="../angular/default.asp.html">Learn AngularJS</a>
+          <a href="../ajax/default.asp.html">Learn AJAX</a>
+          <a href="../json/default.asp.html">Learn JSON</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>HTML Graphics</h3>
+          <a href="../canvas/default.asp.html">Learn Canvas</a>
+          <a href="../svg/default.asp.html">Learn SVG</a>
+          <a href="../icons/default.asp.html">Learn Icons</a>
+          <a href="../googleapi/default.asp.html">Learn Google Maps</a>
+          <a href="../games/default.asp.html">Learn HTML Games</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>Server Side</h3>
+          <a href="../sql/default.asp.html">Learn SQL</a>
+          <a href="../php/default.asp.html">Learn PHP</a>
+          <a href="../asp/default.asp.html">Learn ASP</a>
+          <a href="../aspnet/default.asp.html">Learn ASP.NET</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>Web Building</h3>
+          <a href="default.asp.html">Web Building</a>
+          <a href="../browsers/default.asp.html">Web Statistics</a>
+          <a href="../cert/default.asp.html">Web Certificates</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>XML Tutorials</h3>
+          <a href="../xml/default.asp.html">Learn XML</a>
+          <a href="../xsl/default.asp.html">Learn XSLT</a>
+        </div>
+      </div>
+    </div>
+    <div id="nav_references_content" style="display: none">
+      <span onclick='w3_close_nav("references")' class="w3-closebtn w3-xlarge"
+        >×</span
+      >
+      <div class="w3-row-padding">
+        <div class="w3-col l2 m4">
+          <h3>HTML</h3>
+          <a href="../tags/default.asp.html">HTML Tag Reference</a>
+          <a href="../tags/ref_eventattributes.asp.html"
+            >HTML Event Reference</a
+          >
+          <a href="../colors/default.asp.html">HTML Color Reference</a>
+          <a href="../tags/ref_attributes.asp.html">HTML Attribute Reference</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>CSS</h3>
+          <a href="../cssref/default.asp.html">CSS Reference</a>
+          <a href="../cssref/css_selectors.asp.html">CSS Selector Reference</a>
+          <a href="../w3css/w3css_references.asp.html">W3.CSS Reference</a>
+          <a href="../bootstrap/bootstrap_ref_css_text.asp.html"
+            >Bootstrap Reference</a
+          >
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>JavaScript</h3>
+          <a href="../jsref/default.asp.html">JavaScript Reference</a>
+          <a href="../jsref/default.asp.html">HTML DOM Reference</a>
+          <a href="../jquery/jquery_ref_selectors.asp.html">jQuery Reference</a>
+          <a href="../jquerymobile/jquerymobile_ref_data.asp.html"
+            >jQuery Mobile Reference</a
+          >
+          <a href="../angular/angular_ref_directives.asp.html"
+            >AngularJS Reference</a
+          >
+          <a href="../googleAPI/google_maps_ref.asp.html"
+            >Google Maps Reference</a
+          >
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>Server Side</h3>
+          <a href="../php/php_ref_array.asp.html">PHP Reference</a>
+          <a href="../sql/sql_quickref.asp.html">SQL Reference</a>
+          <a href="../asp/asp_ref_response.asp.html">ASP Reference</a>
+          <a href="../aspnet/webpages_ref_classes.asp.html">Razor Reference</a>
+          <a href="../aspnet/aspnet_intro.asp.html">ASP.NET Reference</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>XML</h3>
+          <a href="../xml/dom_nodetype.asp.html">XML Reference</a>
+          <a href="../xsl/xsl_w3celementref.asp.html">XSLT Reference</a>
+          <a href="../xml/schema_elements_ref.asp.html">XML Schema Reference</a>
+          <a href="../svg/svg_reference.asp.html">SVG Reference</a>
+        </div>
+        <div class="w3-col l2 m4">
+          <h3>Charsets</h3>
+          <a href="../charsets/default.asp.html">HTML Character Sets</a>
+          <a href="../charsets/ref_html_ascii.asp.html">HTML ASCII</a>
+          <a href="../charsets/ref_html_ansi.asp.html">HTML ANSI</a>
+          <a href="../charsets/ref_html_ansi.asp.html">HTML Windows-1252</a>
+          <a href="../charsets/ref_html_8859.asp.html">HTML ISO-8859-1</a>
+          <a href="../charsets/ref_html_symbols.asp.html">HTML Symbols</a>
+          <a href="../charsets/ref_html_utf8.asp.html">HTML UTF-8</a>
+        </div>
+      </div>
+    </div>
+    <div id="nav_examples_content" style="display: none">
+      <span onclick='w3_close_nav("examples")' class="w3-closebtn w3-xlarge"
+        >×</span
+      >
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6">
+          <h3>HTML/CSS</h3>
+          <a href="../html/html_examples.asp.html">HTML Examples</a>
+          <a href="../css/css_examples.asp.html">CSS Examples</a>
+          <a href="../w3css/w3css_examples.asp.html">W3.CSS Examples</a>
+        </div>
+        <div class="w3-col l3 m6">
+          <h3>JavaScript</h3>
+          <a href="../js/js_examples.asp.html" target="_top"
+            >JavaScript Examples</a
+          >
+          <a href="../js/js_dom_examples.asp.html" target="_top"
+            >HTML DOM Examples</a
+          >
+          <a href="../jquery/jquery_examples.asp.html" target="_top"
+            >jQuery Examples</a
+          >
+          <a href="../jquerymobile/jquerymobile_examples.asp.html" target="_top"
+            >jQuery Mobile Examples</a
+          >
+          <a href="../angular/angular_examples.asp.html" target="_top"
+            >AngularJS Examples</a
+          >
+          <a href="../ajax/ajax_examples.asp.html" target="_top"
+            >AJAX Examples</a
+          >
+        </div>
+        <div class="w3-col l3 m6">
+          <h3>Server Side</h3>
+          <a href="../php/php_examples.asp.html" target="_top">PHP Examples</a>
+          <a href="../asp/asp_examples.asp.html" target="_top">ASP Examples</a>
+          <a href="../aspnet/webpages_examples.asp.html" target="_top"
+            >Razor Examples</a
+          >
+          <a href="../aspnet/aspnet_examples.asp.html" target="_top"
+            >.NET Examples</a
+          >
+        </div>
+        <div class="w3-col l3 m6">
+          <h3>XML</h3>
+          <a href="../xml/xml_examples.asp.html" target="_top">XML Examples</a>
+          <a href="../xsl/xsl_examples.asp.html" target="_top">XSL Examples</a>
+          <a href="../xsl/xsl_examples.asp.html" target="_top">XSLT Examples</a>
+          <a href="../xsl/xpath_examples.asp.html" target="_top"
+            >XPath Examples</a
+          >
+          <a href="../xml/schema_example.asp.html" target="_top"
+            >XML Schema Examples</a
+          >
+          <a href="../svg/svg_examples.asp.html" target="_top">SVG Examples</a>
+        </div>
+      </div>
+    </div>
+    <div id="nav_translate_content" style="display: none">
+      <span onclick='w3_close_nav("translate")' class="w3-closebtn w3-xlarge"
+        >×</span
+      >
+      <br /><br />Translate w3schools.com:
+      <div id="google_translate_element"></div>
+      <br />
+    </div>
+    <div id="nav_search_content" style="display: none">
+      <span onclick='w3_close_nav("search")' class="w3-closebtn w3-xlarge"
+        >×</span
+      >
+      <br /><br />
+      <div class="searchdiv">
+        Search w3schools.com:
+        <div id="googleSearch">
+          <div id="___gcse_0">
+            <div class="gsc-control-cse gsc-control-cse-en">
+              <div class="gsc-control-wrapper-cse" dir="ltr">
+                <form
+                  class="gsc-search-box gsc-search-box-tools"
+                  accept-charset="utf-8"
+                >
+                  <table
+                    cellspacing="0"
+                    cellpadding="0"
+                    class="gsc-search-box"
+                  >
+                    <tbody>
+                      <tr>
+                        <td class="gsc-input">
+                          <div class="gsc-input-box" id="gsc-iw-id1">
+                            <table
+                              cellspacing="0"
+                              cellpadding="0"
+                              id="gs_id50"
+                              class="gstl_50 gsc-input"
+                              style="width: 100%; padding: 0px"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td id="gs_tti50" class="gsib_a">
+                                    <input
+                                      autocomplete="off"
+                                      type="text"
+                                      size="10"
+                                      class="gsc-input"
+                                      name="search"
+                                      id="gsc-i-id1"
+                                      dir="ltr"
+                                      spellcheck="false"
+                                      style="
+                                        width: 100%;
+                                        padding: 0px;
+                                        border: none;
+                                        margin: -0.0625em 0px 0px;
+                                        height: 1.25em;
+                                        outline: none;
+                                      "
+                                    />
+                                  </td>
+                                  <td class="gsib_b">
+                                    <div class="gsst_b" id="gs_st50" dir="ltr">
+                                      <a
+                                        class="gsst_a"
+                                        href="javascript:void(0)"
+                                        title="Clear search box"
+                                        style="display: none"
+                                        ><span class="gscb_a" id="gs_cb50"
+                                          >×</span
+                                        ></a
+                                      >
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </td>
+                        <td class="gsc-search-button">
+                          <button
+                            class="gsc-search-button gsc-search-button-v2"
+                          >
+                            <svg width="13" height="13" viewBox="0 0 13 13">
+                              <title>search</title>
+                              <path
+                                d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"
+                              ></path>
+                            </svg>
+                          </button>
+                        </td>
+                        <td class="gsc-clear-button">
+                          <div class="gsc-clear-button" title="clear results">
+                            &nbsp;
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+                <div class="gsc-results-wrapper-overlay">
+                  <div class="gsc-results-close-btn" tabindex="0"></div>
+                  <div class="gsc-positioningWrapper">
+                    <div class="gsc-tabsAreaInvisible">
+                      <div
+                        class="gsc-tabHeader gsc-inline-block gsc-tabhActive"
+                      >
+                        Custom Search
+                      </div>
+                      <span class="gs-spacer"> </span>
+                    </div>
+                  </div>
+                  <div class="gsc-positioningWrapper">
+                    <div class="gsc-refinementsAreaInvisible"></div>
+                  </div>
+                  <div class="gsc-above-wrapper-area-invisible">
+                    <table
+                      cellspacing="0"
+                      cellpadding="0"
+                      class="gsc-above-wrapper-area-container"
+                    >
+                      <tbody>
+                        <tr>
+                          <td class="gsc-result-info-container">
+                            <div class="gsc-result-info-invisible"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="gsc-adBlockInvisible"></div>
+                  <div class="gsc-wrapper">
+                    <div class="gsc-adBlockInvisible"></div>
+                    <div class="gsc-resultsbox-invisible">
+                      <div class="gsc-resultsRoot gsc-tabData gsc-tabdActive">
+                        <div><div class="gsc-expansionArea"></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gsc-modal-background-image" tabindex="0"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <script src="../lib/w3schools_footer.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script
+      type="text/javascript"
+      id="add_privacy_banner"
+      src="http://www.cs.unibo.it/projects/privacy/js/add_privacy_banner_nocookie.js"
+    ></script>
+    <iframe
+      src="https://a05aba3cb41ccf0d16baacdfa9c9806a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+      style="visibility: hidden; display: none"
+    ></iframe>
+    <div
+      style="
+        font-family: arial;
+        font-size: 12px;
+        padding: 2px;
+        width: 100%;
+        z-index: 100;
+        background: rgb(68, 68, 68);
+        color: rgb(255, 255, 255);
+      "
+    >
+      <a
+        href="http://www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf"
+        style="color: white"
+        target="_blank"
+        >Privacy Policy</a
+      >
+    </div>
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      class="gstl_50 gssb_c"
+      style="
+        width: 2px;
+        display: none;
+        top: 3px;
+        position: absolute;
+        left: -1px;
+      "
+    >
+      <tbody>
+        <tr>
+          <td class="gssb_f"></td>
+          <td class="gssb_e" style="width: 100%"></td>
+        </tr>
+      </tbody>
+    </table>
+    <iframe
+      src="https://www.google.com/recaptcha/api2/aframe"
+      width="0"
+      height="0"
+      style="display: none"
+    ></iframe>
+  </body>
+</html>
